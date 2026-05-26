@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Rust build artifacts
+target/
+**/target/
+
+# Rust backup files
+**/*.rs.bk
+
+# Local environment files
+.env
+.env.*

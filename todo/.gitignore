@@ -1,0 +1,7 @@
+/target
+
+# Local app data
+/todos.json
+
+# macOS
+.DS_Store
