@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": ["jest", "node"],
+    "lib": ["es2015"],
+    "target": "es6",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", "target"]
+}
